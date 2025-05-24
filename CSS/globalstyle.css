@@ -1,0 +1,27 @@
+*{
+    /* universal selectors */
+    background: #cbcbcb;
+}
+
+
+
+/* attribute selector */
+h1[draggable]{
+    color: red
+}
+
+/* If we do this to p tag all p tag which has attribute draggable will be triggered */
+
+/* p[draggable]{
+    color: gray;
+} */
+
+/* But if we want only specific one we can do */
+
+p[draggable = "true"]{
+    color:tomato
+}
+
+p[draggable = "false"]{
+    color:green
+}
