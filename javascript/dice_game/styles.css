@@ -1,0 +1,46 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #272727;
+}
+
+h1 {
+  margin: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #1fb731;
+}
+
+p {
+  font-size: 2rem;
+  color: #27db3c;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+span{
+  font-weight: bold;
+  color: yellow;
+}
